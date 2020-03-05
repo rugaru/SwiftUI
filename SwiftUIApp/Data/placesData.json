@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Московский планетарий",
+        "imageName": "https://mos-holidays.ru/wp-content/uploads/2017/02/planetarii-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Останкинская телебашня",
+        "imageName": "https://mos-holidays.ru/wp-content/uploads/2017/02/ostankinskaya-telebashnya-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Большой театр",
+        "imageName": "https://mos-holidays.ru/wp-content/uploads/2017/02/bolshoi-teatr-2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Аптекарский огород Ботанического сада МГУ",
+        "imageName": "https://mos-holidays.ru/wp-content/uploads/2017/02/aptekarskii-ogorod-2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Усадьба «Кусково»",
+        "imageName": "https://mos-holidays.ru/wp-content/uploads/2017/02/usadba-kuskovo-5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Музей-заповедник «Царицыно»",
+        "imageName": "https://mos-holidays.ru/wp-content/uploads/2017/02/caricino-1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Московский Кремль и Красная площадь",
+        "imageName": "https://mos-holidays.ru/wp-content/uploads/2017/02/moskovskii-kreml-i-krasnaya-ploshad-5.jpg"
+    }
+]
