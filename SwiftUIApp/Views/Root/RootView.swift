@@ -21,7 +21,7 @@ struct RootView: View {
                     Text("First")
             }.tag(Tab.first)
             
-            PlaceList(showDetailsView: .constant(0)).environmentObject(viewModel)
+            PlaceList()
                 .tabItem {
                     Text("Places")
             }.tag(Tab.second)

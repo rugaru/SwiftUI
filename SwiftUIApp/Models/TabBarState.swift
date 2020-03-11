@@ -16,4 +16,5 @@ enum Tab: Hashable {
 
 class TabBarState: ObservableObject {
     @Published var selectedTab: Tab = .first
+    @Published var selectedItem: Int?
 }

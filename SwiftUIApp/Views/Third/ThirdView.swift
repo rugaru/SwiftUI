@@ -22,8 +22,8 @@ struct ThirdView: View {
                 print("dismiss")
             }) {
                 ModalView()
-            }
-        }.navigationBarTitle("Third")
+            }.navigationBarTitle("Third")
+        }
     }
 }
 

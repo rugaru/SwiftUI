@@ -13,22 +13,22 @@ struct PlaceList: View {
     @EnvironmentObject var viewModel: PlaceListViewModel
     @EnvironmentObject var appState: TabBarState
     
-    @Binding var showDetailsView: Int?
     
     var body: some View {
         NavigationView {
-            List(viewModel.places) { place in
-                NavigationLink(destination: PlaceDetailView(place: place)) {
-                    PlaceRow(place: place)
+            List { ForEach(0..<viewModel.places.count) { idx in
+                NavigationLink(destination: PlaceDetailView(place: self.viewModel.places[idx]), tag: idx, selection:  self.$appState.selectedItem) {
+                    PlaceRow(place: self.viewModel.places[idx])
                 }
-            }
-        }.navigationBarTitle("Places")
+                }
+            }.navigationBarTitle("Places")
+        } // NavigationView
     }
 }
 
 struct PlaceList_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceList(showDetailsView: .constant(0)).environmentObject(PlaceListViewModel())
+        PlaceList().environmentObject(PlaceListViewModel())
     }
 }
 

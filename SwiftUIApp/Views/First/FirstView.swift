@@ -15,10 +15,11 @@ struct FirstView: View {
         NavigationView {
             Button(action: {
                 self.appState.selectedTab = .second
+                self.appState.selectedItem = 1
             }) {
                 Text("To the second tab")
-            }
-        }.navigationBarTitle("First")
+            }.navigationBarTitle("First")
+        }
     }
 }
 
